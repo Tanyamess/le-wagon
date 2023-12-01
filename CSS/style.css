@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,800&family=Roboto:wght@100&display=swap");
+
+@import url(components/container.css);
+@import url(components/destinations.css);
+@import url(components/bouton.css);
+@import url(components/banner.css);
+@import url(components/card.css);
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/cards.css");
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+h1 {
+    color: rgb(206, 169, 253);
+font-size: 40px;
+font-family: 'Montserrat', sans-serif;
+margin-bottom: 50px;}
+
+h2 {color: rgb(255, 160, 255);
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: rgba(255, 213, 245, 0.159);
+    }
+
+a{
+    background-color: #D19875;
+    color: aliceblue;
+    font-size: 200%;
+    padding: 8px;
+    transition: transform 0.2s; box-shadow: 0.2s;
+    border-radius: 20%;
+    box-shadow: 4px 8px #5F3C32;
+    text-align: center;
+    margin: 675px;
+    
+}
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card img {
+    width: 140px;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
